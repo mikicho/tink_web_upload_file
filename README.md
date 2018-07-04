@@ -8,7 +8,7 @@ I created two endpoints, and using them via `Remoting` one (`getFilesList`) work
 2. run `lix download`
 3. Change `tink.web.forms.FormFile.hx` file to the code bellow (minor changes applied on `ofJson` and `ofBlob` functions):
 4. run `haxe server.hxml`
-5. run `client.hxml`
+5. run `haxe client.hxml`
 6. open `localhost:3000`
 
 ### The code bellow :)
