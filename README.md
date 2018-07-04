@@ -5,7 +5,14 @@ I created two endpoints, and using them via `Remoting` one (`getFilesList`) work
 
 ### To make it run on your machines:
 1. Clone the repo
-2. Change `tink.web.forms.FormFile.hx` file to (minor changes applied on `ofJson` and `ofBlob` functions):
+2. run `lix download`
+3. Change `tink.web.forms.FormFile.hx` file to the code bellow (minor changes applied on `ofJson` and `ofBlob` functions):
+4. run `haxe server.hxml`
+5. run `client.hxml`
+6. open `localhost:3000`
+
+### The code bellow :)
+
 ```haxe
 package tink.web.forms;
 
