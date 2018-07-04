@@ -1,0 +1,6 @@
+# @install: lix --silent download "https://github.com/haxetink/tink_multipart/archive/7f0a83eadc1480286efa53b329bf8cd6b065a1c9.tar.gz" into tink_multipart/0.2.1/github/7f0a83eadc1480286efa53b329bf8cd6b065a1c9
+-D tink_multipart=0.2.1
+-cp ${HAXESHIM_LIBCACHE}/tink_multipart/0.2.1/github/7f0a83eadc1480286efa53b329bf8cd6b065a1c9/src
+
+-lib tink_http
+-lib tink_state

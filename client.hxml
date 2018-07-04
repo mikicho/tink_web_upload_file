@@ -1,0 +1,8 @@
+-cp src/client
+-cp src/shared
+
+-main Main
+-js ./bin/public/app.js
+-debug
+
+-lib tink_web

@@ -1,0 +1,11 @@
+-cp src/server
+-cp src/shared
+
+-main Main
+-js ./bin/test_upload_file.js
+-debug
+
+-lib hxnodejs
+-lib tink_web
+-lib tink_http_middleware
+-lib tink_multipart
